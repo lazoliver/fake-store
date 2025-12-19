@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <main className="flex justify-center bg-stone-100">
-      <div className="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 lg:w-[98rem] p-5">
+      <div className="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 lg:w-[98rem] p-5 min-h-[100vh]">
         {loading && <p>Carregando...</p>}
         {error && <p>Erro. Tente novamente mais tarde.</p>}
         {products?.map((product) => (
