@@ -2,8 +2,8 @@ import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex justify-center border-b border-stone-300 fixed top-0 left-0 right-0 bg-white">
-      <div className="flex justify-between items-center lg:w-[98rem] w-full px-5 py-5">
+    <header className="flex border-b border-stone-300 fixed top-0 left-0 right-0 bg-white">
+      <div className="container justify-between items-center px-5 py-5">
         <div>
           <Link to="/" className="text-2xl font-bold p-4">
             Fake Store
